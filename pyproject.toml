@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entrench"
+version = "0.1.0"
+description = "Generate and store embedding of your Markdown files in your codebase"
+authors = [{ name = "Stephan Wolski" }]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = ["click", "ollama", "rich", "markdown-it-py", "numpy"]
+
+[project.entry-points."console_scripts"]
+entrench = "entrench.cli:cli"
