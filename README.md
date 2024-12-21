@@ -57,7 +57,7 @@ To use `entrench` as a [pre-commit](https://pre-commit.com/) hook, add the follo
 
 `.trench` files are stored in the same directory as the Markdown files and have the following format:
 
-```json
+```
 <FILE_NAME_1> <SHA256>
 <FILE_NAME_N> <SHA256>
 ----
